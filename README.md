@@ -4,6 +4,9 @@
 
 A personal project that scans large/mega-cap stocks for major price movements (3M, 6M, 52W lows, large daily drops, and multi-day loss streaks). It then generates and sends a summary email.
 
+## Motivation
+
+
 ## Features
 - **Scraping**: Collects large/mega-cap tickers with Selenium + BeautifulSoup.
 - **Data Fetching**: Uses Yahoo Finance ('yfinance') to retrieve daily OHLC (open, high, low, close) data.
