@@ -20,5 +20,5 @@ A personal project that scans large/mega-cap stocks for major price movements (3
 - **Email Output**: Sends structured HTML with tables, sectors and badges
 
 ## Project Structure
-- [Scraper.py](): Scrape tickers
+- [Scraper.py](https://github.com/masonlonoff/Stock_Notifier_Bot/blob/main/Scraper.py): Scrape tickers
 - [fetch.py](https://github.com/masonlonoff/Stock_Notifier_Bot/blob/main/fetch.py): download OHLC data & compute alerts.
