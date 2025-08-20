@@ -1,6 +1,6 @@
 # Stock_Notifier_Bot
 
-![image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fhelloyubo.com%2Fhow-to-integrate-the-chatbot-with-email-marketing%2F&psig=AOvVaw3ThmY9rt02pk5ModYgUoWD&ust=1755809490291000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCPCMk7-kmo8DFQAAAAAdAAAAABAS)
+![image](https://helloyubo.com/wp-content/uploads/2021/07/How-To-Integrate-The-Chatbot-With-Email-Marketing.jpg)
 
 A personal project that scans large/mega-cap stocks for major price movements (3M, 6M, 52W lows, large daily drops, and multi-day loss streaks). It then generates and sends a summary email.
 
