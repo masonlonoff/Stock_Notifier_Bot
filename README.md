@@ -1,6 +1,6 @@
 # Stock_Notifier_Bot
 
-![image]()
+![image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fhelloyubo.com%2Fhow-to-integrate-the-chatbot-with-email-marketing%2F&psig=AOvVaw3ThmY9rt02pk5ModYgUoWD&ust=1755809490291000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCPCMk7-kmo8DFQAAAAAdAAAAABAS)
 
 A personal project that scans large/mega-cap stocks for major price movements (3M, 6M, 52W lows, large daily drops, and multi-day loss streaks). It then generates and sends a summary email.
 
@@ -21,4 +21,18 @@ A personal project that scans large/mega-cap stocks for major price movements (3
 
 ## Project Structure
 - [Scraper.py](https://github.com/masonlonoff/Stock_Notifier_Bot/blob/main/Scraper.py): Scrape tickers
-- [fetch.py](https://github.com/masonlonoff/Stock_Notifier_Bot/blob/main/fetch.py): download OHLC data & compute alerts.
+- [fetch.py](https://github.com/masonlonoff/Stock_Notifier_Bot/blob/main/fetch.py): download OHLC data & compute alerts
+- [sectors.py](https://github.com/masonlonoff/Stock_Notifier_Bot/blob/main/sectors.py): add sector info
+- [market.py](https://github.com/masonlonoff/Stock_Notifier_Bot/blob/main/market.py): SPY/QQQ context
+- [emailer.py](https://github.com/masonlonoff/Stock_Notifier_Bot/blob/main/emailer.py): build/send HTML summary
+- [logger.py](https://github.com/masonlonoff/Stock_Notifier_Bot/blob/main/logger.py): log daily triggers
+- [trigger_log.csv](https://github.com/masonlonoff/Stock_Notifier_Bot/blob/main/trigger_log_2025-08-20.csv): example of what one of the logged files looks like
+- [Daily Stock Alert Summary Email.pdf](https://github.com/masonlonoff/Stock_Notifier_Bot/blob/main/Daily%20Stock%20Alert%20Summary%20Email.pdf): sample email sent out on 8/20/25
+
+
+## How it works
+1) Scrapes tickers -> DataFrame
+2) Fetch OHLC data for the past year -> compute alerts
+3) Assigns each ticker a sector
+4) Log triggered alerts to a csv (log_files/)
+5) Render HTML email summary and send it 
