@@ -5,6 +5,8 @@
 A personal project that scans large/mega-cap stocks for major price movements (3M, 6M, 52W lows, large daily drops, and multi-day loss streaks). It then generates and sends a summary email.
 
 ## Motivation
+I often missed out on major price drops and movements in the market because I wasn’t specifically watching those stocks day-to-day.  
+This email bot fills that gap in my life; it keeps me aware of large movements across sectors and symbols I might not be tracking directly.
 
 
 ## Features
